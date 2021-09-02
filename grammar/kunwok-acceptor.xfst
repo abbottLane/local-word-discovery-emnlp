@@ -1,0 +1,118 @@
+# Vowels
+define V [ a | e | i | o | u ];
+define C [ b | m | w | k | g | d | n | l | r | j | y | h ];
+
+# Flag Diacritics
+define FLAGS [
+    ("@P.TYPE.N@") |
+    ("@R.TYPE.N@") |
+    ("@R.TENSE.P@") | 
+    ("@P.TENSE.P@") | 
+    ("@R.TENSE.NP@") |
+    ("@P.TENSE.NP@") |
+    ("@P.VALENCE.TRNS@") |
+    ("@R.VALENCE.TRNS@") |
+    ("@P.VALENCE.INTR@") |
+    ("@R.VALENCE.INTR@") ];
+
+define PotentialVerbRoot  [C* V+ C*]+;
+
+read lexc class.verb.lexc
+define VerbLexicon; 
+
+read lexc class.nouns.lexc
+define NounLexicon;
+
+read lexc class.adj.adv.lexc
+define AdjAdvLexicon;
+
+read lexc class.func.lexc
+define FuncLexicon;
+
+# Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+# Define regular vowel changes
+define DeletePrecedingVowel V -> 0 || _ "^" FLAGS * "~" .o.
+                            "~" -> 0;
+
+# Define regular vowel changes
+define DeleteFollowingVowel V -> 0 || FLAGS * "=" _ .o.
+                            "=" -> 0 ;
+
+# Directional phonological changes
+define DirPhonChanges "(ku)" -> 0 || V "^" _ m .o.
+                      "(ku)" -> k u || FLAGS * "^" _ m .o.
+                      "(ku)" -> 0 || _ ;
+
+# FlapVowelChanges
+define FlapChange "(rr)" -> r r || V "^" FLAGS * _ .o.
+                  "(rr)" -> d ;
+
+# Biyameni -> Biyami
+define NasalConsChange e -> 0 || _ "^" FLAGS * "+" .o.
+                       n -> 0 || "^" "+" _       .o.
+                       "+" -> 0;
+
+# 'r' can change depending on its environment
+define RAllophony "(r)" -> 0 || _ "^" FLAGS * "(r)" .o.
+                  "(r)" -> 0 || _ "^" FLAGS * r       .o.
+                  "(r)" -> 0 || l _ .o.
+                  "(r)" -> r;
+
+define NoisyPhones  "bb" (->) [ "b" | "m" ] .o.
+                    "ng" (->) [ "ɲ" | "ŋ" | "n" ] .o.
+                    "dd" (->) [ "t" | "n" | "d" | "ʈ" | "b" ] .o.
+                    "rdd" (->) [ "ʈ"| "t" | "ɻ" | "d"] .o.
+                    "rd" (->) [ "ʈ" | "t" | "ɻ" | "d"] .o.
+                    "rn" (->) [ "ɳ" | "n" | "ɲ"] .o.
+                    "rl" (->) [ "ɭ" | "l" | "r" ] .o.
+                    "rr" (->) [ "r" | "ɹ" ] .o.
+                    "djdj" (->) ["ɟ" | "k" | "ɲ"] .o.
+                    "dj" (->) ["ɟ" | "k" | "ɲ"] .o.
+                    "nj" (->) [ "ɲ" | "n" | "ŋ" | "ɟ" | "ɳ" ] .o.
+                    "b" (->) [ "b" | "m"] .o.
+                    "m" (->) [ "m" | "n" | "b" ] .o.
+                    "kk" (->) [ "k" | "ɟ" ] .o.
+                    "k" (->) [ "k" | "ɟ" ] .o.
+                    "d" (->) [ "t" | "n" | "d" | "ʈ" | "b" ] .o.
+                    "n" (->) [ "n" | "m" | "ɳ" | "ɲ" | "ŋ"] .o.
+                    "l" (->) [ "l" | "r" | "ɭ" | "t"] .o.
+                    "r" (->) [ "l" | "ɭ" ] .o.
+                    "y" (->) [ "j" | "ɪ" | "ɛ" ] .o.
+                    "h" (->) [ "ʔ" ] .o.
+                    "a" (->) [ "a" | "ɪ" | "ɔ" | "ɛ" | "ɐ" ] .o.
+                    "e" (->) [ "ɛ" | "ɔ" | "ɪ" | "j" ] .o.
+                    "i" (->) [ "i" | "ɪ" | "ɛ" | "j" ] .o.
+                    "o" (->) [ "o" | "ɔ" | "u"] .o.
+                    "w" (->) [ "w" | "u" ] .o.
+                    "u" (->) [ "u" | "ɔ" | "ʊ" ] ;
+
+#define EditDistance [?* [?:0|0:?|?:?-?] ?*]<2;
+
+define VerbGrammar  VerbLexicon .o.   
+                    DeletePrecedingVowel .o.
+                    DeleteFollowingVowel .o.
+                    DirPhonChanges       .o.
+                    FlapChange           .o.
+                    NasalConsChange      .o.
+                    RAllophony           .o.
+                    Cleanup;
+
+define NounGrammar NounLexicon .o.
+                   FlapChange           .o.
+                   NasalConsChange      .o.
+                   RAllophony           .o.
+                   Cleanup;
+
+define AdjAdvGrammar AdjAdvLexicon .o.
+                     FlapChange           .o.
+                     NasalConsChange      .o.
+                     RAllophony           .o.
+                     Cleanup;
+
+define wspace [..] (->) " " || _;
+
+define FullGrammar FuncLexicon | AdjAdvGrammar | NounGrammar | VerbGrammar ;
+
+regex  [[[ "-":? ]* [0:" "] [FullGrammar .o. wspace].l [0:" "] [ "-":? ]*] .o. NoisyPhones].i;

@@ -1,0 +1,20 @@
+birri	7   check
+marnbu	7   check
+re	7   check
+om	7   check
+wok	8   check
+bonj	8   check
+man	9   check
+mayali	9  check 
+balanda	10  check
+kore	10  check
+yiman	13  check
+ba	14  check
+yime	18 check 
+kabirri	21  check
+kun	25  check
+ng	26  check
+n	33  check
+ka	37  check
+ngarri	43  check
+bu	44

@@ -1,0 +1,127 @@
+doc_id,orth,sparse,lexicon,baseline_density,fullword_suggestions,length_gold,len_baseline_transcriptions,correct_partialword_suggestions
+doc0,ngaleng wanjh ngalbininjkobeng nuye bimkang konhda [and] wurdurd,ng a l ɛ ng w a ɲ ng a t i n ɲ k ɔ n b ɛ ng ɹ i b i m ka ng k ɔ n ʔ t a m a n w u ʈ ɳ,"['ng', 'ng', 'ng', 'n', 'n', 'ng', 'ka', 'ng', 'n', 'n']",0.2807017543859649,"{'bimkang', 'ngaleng'}",57,16,"{'bimkang', 'bimka', 'kang', 'ngaleng', 'kan'}"
+doc1,konhda labbarlno,k ɔ n ʔ t a l ɑ b a l n u,"['n', 'n']",0.13333333333333333,set(),15,2,set()
+doc2,balanda bedberre,balanda b ɛ t b ɛ r ɛ,['balanda'],0.4666666666666667,set(),15,7,set()
+doc3,ngarradj ngarradj kawokdi bu kobahkohbanj kabirriyime,ng a r i j ng a r a ɲ ka wok b i bu k ɔ b ɔ b ɔ t kabirri yime,"['ng', 'ng', 'ka', 'wok', 'bu', 'kabirri', 'yime']",0.4583333333333333,"{'kawokdi', 'kabirriyime'}",48,22,"{'kawokdi', 'kabirriyime', 'wokdi'}"
+doc4,bikbik or nemekke,b i k b ɛ k ɔ m k n ɛ m ɛ k ɛ,['n'],0.06666666666666667,set(),15,1,set()
+doc5,kure beh balanda kamak rowk minj njalemak,k u re b ɛ balanda ŋ ka m ɔ k u m i j a l ɛ m a k,"['re', 'balanda', 'ka']",0.3142857142857143,set(),35,11,{'kama'}
+doc6,namekke boyenka konhda beh ngarribidbun,n ɛ m ɛ r ɛ b w ɛ ŋ ka k ɔ t a b ɛ ngarri b i t b u n,"['n', 'ka', 'ngarri', 'n']",0.2857142857142857,{'ngarribidbun'},35,10,"{'bidbun', 'na', 'name', 'bun', 'ngarribidbu', 'ngarribidbun'}"
+doc7,kore kabirribolkwarrewon labbarlno,kore kabirri b u l k w ɔ r w ɔ n l a b a l r n ɔ,"['kore', 'kabirri', 'n', 'n']",0.40625,set(),32,13,{'won'}
+doc8,konhda kore helicopter ngadjolohyime nawu balandaken kunwok,k ɔ n ʔ t a kore a l ɛ b ɑ ɹ t ɛ ng a ɟ a l ɛ yime n a w u balanda ɟ ɛ n kunwok,"['n', 'kore', 'ng', 'yime', 'n', 'balanda', 'n']",0.37735849056603776,"{'nawu', 'balandaken'}",53,20,"{'nawu', 'ken', 'na', 'balandaken'}"
+doc9,ngad karriyime yakngarra karlba yakngarra ngulmeng,k ɔ ng a r ka t i yime j ɛ k ng a t a ka r b ɔ ɟ a k ng a r a ng u l u m ɛ ng,"['ng', 'ka', 'yime', 'ng', 'ka', 'ng', 'ng', 'ng']",0.4,"{'ngad', 'karlba'}",45,18,"{'ngad', 'ngu', 'karlba'}"
+doc10,njamed yiman ?? mankung djang kurrmerrinj,ɟ a m a t yiman i d i man k u ng ɟ a ng k u r k m ɛ r i,"['yiman', 'man', 'ng', 'ng']",0.3333333333333333,"{'mankung', 'djang'}",36,12,"{'kung', 'mankung', 'djan', 'djang'}"
+doc11,kobahkohbanj konhda wamud bare ba yolyolme konhda bu,k ɔ b ɔ b ɔ ɲ k ɔ n ʔ t w a m u ʈ b ɔ re b ɔ ɔ ɹ ɟ r m i k u n t a bu,"['n', 're', 'n', 'bu']",0.13333333333333333,set(),45,6,set()
+doc12,nemekke ngarri ngarri ngarribenbun konhda,n ɛ m ɛ j ngarri ngarri ngarri b ɛ n bu n k ɔ n t a,"['n', 'ngarri', 'ngarri', 'ngarri', 'n', 'bu', 'n', 'n']",0.6486486486486487,{'ngarribenbun'},37,24,"{'ngarribenbu', 'bun', 'ngarribenbun'}"
+doc13,nahne bu kabirriwurrke kabodurrkmang kulabbarl beh,n a ʔ n ɛ bu kabirri k u r k ɛ ka b u t u k m a ng k u l a b a l b ɛ,"['n', 'n', 'bu', 'kabirri', 'ka', 'ng']",0.3333333333333333,set(),45,15,"{'na', 'kab', 'mang', 'kabodu', 'kabo'}"
+doc14,ba balanda bininj ngarribengkan wurdurd,ba balanda b i n i ɲ ngarri b ɛ ng k a n w u ʈ u,"['ba', 'balanda', 'n', 'ngarri', 'ng', 'n']",0.5428571428571428,"{'ngarribengkan', 'bininj'}",35,19,"{'ngarribengkan', 'ngarribengka', 'nin', 'bengka', 'binin', 'bini', 'bininj', 'kan', 'ni'}"
+doc15,dja mak,ɟ ɔ m a k,[],0.0,set(),6,0,set()
+doc16,kabindibukbukkan ba manme kabirridudjeng ba kabirriborlbme bonj,k a b ɛ n bu bu k a n b a man m ɛ kabirri t u ɟ ɛ ng b ɔ kabirri b u l k m ɛ bonj,"['n', 'bu', 'bu', 'n', 'man', 'kabirri', 'ng', 'kabirri', 'bonj']",0.5087719298245614,{'manme'},57,29,"{'kabirridu', 'bukka', 'bukkan', 'dudjeng', 'manme', 'buk', 'kan'}"
+doc17,but marrek ngawernhbengkan mane manu kunwok,k ɔ t m a r ɛ ŋ ng a r n b ɛ ng ka n man ɛ man u kunwok,"['ng', 'n', 'ng', 'ka', 'n', 'man', 'man']",0.3684210526315789,set(),38,14,"{'kan', 'bengka'}"
+doc18,konhda kore birriyawkurrmeng njamed yiman kabiyawkodjmulewan,k w ɔ n ʔ t a kore birri ɛ a b u r m ɛ ng ɲ a m ɛ t yiman ka b ɛ k w a ɲ m ɛ l ɛ w a n,"['n', 'kore', 'birri', 'ng', 'yiman', 'ka', 'n']",0.36363636363636365,set(),55,20,{'kab'}
+doc19,konhda mako kahyo,k ɔ n ʔ t a ŋ m a k u ka j i ɔ,"['n', 'ka']",0.2,set(),15,3,set()
+doc20,kumekke beh karrkad beh ngarribongubongun namekke kabodurrkmang ngadberre kukku,k u m ɛ k ɛ b ɛ n ka r ka m b ɛ ngarri b ɔ ng u b u ng ɔ n ɲ a m ɛ ɛ ka b u r k m a ng ng a t b ɛ r ɛ k u k u,"['n', 'ka', 'ka', 'ngarri', 'ng', 'ng', 'n', 'ka', 'ng', 'ng']",0.30985915492957744,"{'karrkad', 'ngadberre'}",71,22,"{'ngun', 'ngad', 'na', 'durrkmang', 'ngadberre', 'bongun', 'kab', 'ngu', 'mang', 'name', 'ngarribongu', 'bongu', 'kabo', 'karrkad'}"
+doc21,wurdurd kabindibukbukkan,k u t u r ka b i n t i bu ŋ bu k a n,"['ka', 'n', 'bu', 'bu', 'n']",0.34782608695652173,set(),23,8,"{'kabindibu', 'bukka', 'bukkan', 'buk', 'kab', 'kan'}"
+doc22,kabirriborlbme bu djordmen yiman,kabirri b ɔ ʃ m ɛ bu ɟ t m ɛ n yiman,"['kabirri', 'bu', 'n', 'yiman']",0.5172413793103449,set(),29,15,set()
+doc23,manbulurdda kayime manbulurdda ngarriyime kobohkohbanj,man bu n u ʈ t ɑ kayime man b u l u k t a k n ngarri yime n a w k ɔ b ɔ k ɔ b a ɲ,"['man', 'bu', 'n', 'man', 'n', 'ngarri', 'yime', 'n']",0.42,{'ngarriyime'},50,21,"{'manbu', 'ngarriyime'}"
+doc24,mah mane manu ngayolyolme manu,m a man ɛ man ɛ ng u ɹ i j ɔ l k m ɛ man w,"['man', 'man', 'ng', 'man']",0.4230769230769231,set(),26,11,set()
+doc25,nahne yakngarrano kabirribidjmang kabirrimarnbun,n a ʔ n ɛ j a l t ng a r a n ɔ kabirri b i ɟ m a ng kabirrimarnbun,"['n', 'n', 'ng', 'n', 'kabirri', 'ng']",0.3111111111111111,set(),45,14,"{'mang', 'na', 'ngarran'}"
+doc26,kohnda kumekke [little] [bit] [of] ngarrimarnbun mankarre ngarrirohrokme namekke,k ɔ n ʔ t a k u m ɛ k l ɛ b i r ɔ ngarri marnbu n man ka t ɛ ngarri ɹ r ɔ k m ɛ n a m ɛ k ɛ,"['n', 'ngarri', 'marnbu', 'n', 'man', 'ka', 'ngarri', 'n']",0.3611111111111111,"{'ngarrimarnbun', 'namekke'}",72,26,"{'manka', 'na', 'ngarrimarnbun', 'ngarrimarnbu', 'namekke', 'name', 'marnbun'}"
+doc27,kundung beh kakinje bo [generator] kayakmen kawarremen,kun t u ng b ɛ ka k i ɲ ɲ ɛ b u ɟ ɛ n a ɹ ɛ r ɛ ka j a k m ɛ n ka w a r i m ɛ n,"['kun', 'ng', 'ka', 'n', 'ka', 'n', 'ka', 'n']",0.2916666666666667,"{'kayakmen', 'kundung'}",48,14,"{'kayakmen', 'kundung', 'dung'}"
+doc28,kabirridurrkmirri kabirridudjeng manme bedberre,kabirri t u r k m a r ɛ ɲ kabirri t u ɟ ng man m ɛ b ɛ t b ɛ r ɛ,"['kabirri', 'kabirri', 'ng', 'man']",0.4318181818181818,{'manme'},44,19,"{'kabirridu', 'manme'}"
+doc29,konhda nawarddeken wurdurd kabandikan,k ɔ n ʔ t a n a w a t ɛ k ɛ n w u ʈ u ka b a n t i k a n,"['n', 'n', 'n', 'ka', 'n', 'n']",0.20588235294117646,{'nawarddeken'},34,7,"{'ken', 'na', 'nawarddeken', 'kab', 'kan'}"
+doc30,konhda kore balanda kabirrimre wokbiyika beh,k w ɑ ʔ t a kore balanda kabirri m re wok b i k a b ɛ,"['kore', 'balanda', 'kabirri', 're', 'wok']",0.5897435897435898,{'kabirrimre'},39,23,{'kabirrimre'}
+doc31,bedberre kunmayali kobohkohbanj,b ɛ t b ɛ r ɛ kunmayali k u b ɔ b a ɲ m,[],0.0,set(),29,0,set()
+doc32,ngarribendulubun wanjh,ngarri b ɛ n b u l u b u n a ɲ,"['ngarri', 'n', 'n']",0.38095238095238093,{'ngarribendulubun'},21,8,"{'bendu', 'ngarribendulubu', 'ngarribendulubun', 'bun', 'ngarribendu', 'dulubun'}"
+doc33,yiman kayime ngarribulidombun,yiman kayime ngarri b i l i t om b u n,"['yiman', 'ngarri', 'om', 'n']",0.5185185185185185,set(),27,14,"{'dombu', 'bun'}"
+doc34,yekke ngarriwurlhwurlhke,j ɛ k ɛ ngarri w u l w u ɭ i k ɛ,['ngarri'],0.2608695652173913,set(),23,6,set()
+doc35,ngandibengkan bu kunbudji ngarribenwon bu ngarridjuhme konhda,ng a n t i b ɛ ng ka n bu kun b u l k ɛ ngarri b ɛ n k u n bu ngarri ɟ u r ʔ m ɛ k ɔ n ʔ t a,"['ng', 'n', 'ng', 'ka', 'n', 'bu', 'kun', 'ngarri', 'n', 'n', 'bu', 'ngarri', 'n']",0.5454545454545454,set(),55,30,"{'kan', 'bengka'}"
+doc36,ngurrurdu nganboku kuken barribonguni bonj,ng u r u ʈ w ng ɔ ɳ b ɔ k u b u k ɛ n m b a r i b u ng u n i bonj,"['ng', 'ng', 'n', 'ng', 'n', 'bonj']",0.3157894736842105,set(),38,12,"{'ken', 'bonguni', 'ngun', 'bongun', 'ngu', 'nguni', 'bongu', 'ni'}"
+doc37,boyenkabo kayawbarddarlemen wanjh ngarriwurlke,b a r i ka b u ka b a t ɟ a l ɛ m a n n w a ɲ ngarri w u ɭ i k k ɛ,"['ka', 'ka', 'n', 'n', 'ngarri']",0.27906976744186046,set(),43,12,"{'kab', 'kabo'}"
+doc38,nawu [teacher] bedberre,n a w u t i ɟ ə b ɛ t b ɛ r ɛ,['n'],0.047619047619047616,{'nawu'},21,1,"{'nawu', 'na'}"
+doc39,yakngarrano ngad karriyime [colour],j a k ng a r a n n a ng a r i ka r i yime k ɔ l ɑ ɹ,"['ng', 'n', 'n', 'ng', 'ka', 'yime']",0.375,{'karriyime'},32,12,"{'karriyime', 'ngarran'}"
+doc40,bolkki nganyibawong ngadberre wanjh,b u l k ng a n j b ɔ ng ng a t b ɛ r ɛ w ɔ ɲ,"['ng', 'n', 'ng', 'ng']",0.21875,{'ngadberre'},32,7,"{'ngad', 'ngadberre', 'wong', 'won'}"
+doc41,bedberre kunmayali kobahkohbanj marrek ngarriyibawon yoh,b ɛ n b ɛ r ɛ kunmayali k ɔ b ɔ k b a m a r i k ngarri j i b ɔ j,"['n', 'ngarri']",0.13725490196078433,set(),51,7,set()
+doc42,yiman wanjhki birrimarnbom [for],yiman n ɛ k i birri m a ɳ b om ɔ,"['yiman', 'n', 'birri', 'om']",0.4482758620689655,{'birrimarnbom'},29,13,"{'marnbom', 'birrimarnbom', 'birrima', 'bom'}"
+doc43,njamed kunwarddaburrk,ɲ a m ɛ k kun w ɔ ʈ a b u r k,['kun'],0.15,set(),20,3,set()
+doc44,namekke kunmayali manekke kabandibukkan balanda [and] bininj kabirriraworren,n i m ɛ kunmayali man i k i ka m ɛ t i b u k a n balanda ɛ b ɛ n i ɲ kabirri ɹ ɔ w ɔ r ɛ n,"['n', 'man', 'ka', 'n', 'balanda', 'n', 'kabirri', 'n']",0.3333333333333333,{'bininj'},69,23,"{'worren', 'bukkan', 'na', 'binin', 'kab', 'bini', 'bininj', 'nin', 'kan', 'ni'}"
+doc45,kodjdjan biyibokenh wurdurd,k w ɔ ɟ ɟ a n b i j i b ɔ l m j a r w u r u ʈ,['n'],0.04,set(),25,1,{'djan'}
+doc46,kulabbarl beh nganbokuken konhda bu marrek kabodowen kadjale nawu kudjewk kaborawon,k u ɭ a b a l i t b ɛ ng a n b u k u k ɛ n k u n b u m a r ɛ k ka b u r u k ka n k a ɟ a l ɛ n a w u w k u ɟ ɛ k ka b ɔ ɹ a ɔ n,"['ng', 'n', 'n', 'n', 'ka', 'ka', 'n', 'n', 'ka', 'n']",0.1917808219178082,{'nawu'},73,14,"{'nawu', 'ken', 'na', 'kab', 'kabo'}"
+doc47,ngarribolkmarnbun ngarrinahnan,ngarri b u l marnbu n ngarri n a ʔ n a n,"['ngarri', 'marnbu', 'n', 'ngarri', 'n', 'n', 'n']",0.7586206896551724,{'ngarrinahnan'},29,22,"{'nahnan', 'nan', 'na', 'ngarrinahnan', 'nahna', 'ngarrinahna', 'hna', 'hnan', 'ngarrina', 'marnbun'}"
+doc48,ngarrire ngarriwurlhke kunak,ngarrire ngarri w u ɭ i k ɛ kun a,"['ngarri', 'kun']",0.34615384615384615,set(),26,9,set()
+doc49,wanjh manekkeken,k a n ɭ man ɛ k ɛ k ɛ r,"['n', 'man']",0.26666666666666666,set(),15,4,{'manekke'}
+doc50,kure [or] kure,k u re k u re,"['re', 're']",0.3333333333333333,set(),12,4,set()
+doc51,kurekure birrimarnbom bedda kamak rowk,b u ɹ ɛ k u ɹ ɛ birri m a ɳ b om b ɛ n t ɑ ka m a k u,"['birri', 'om', 'n', 'ka']",0.29411764705882354,{'birrimarnbom'},34,10,"{'marnbom', 'birrimarnbom', 'kama', 'birrima', 'bom'}"
+doc52,kore ngankare nungka wamud yoy,kore ng a n ka re m u ng ka w ɔ m u n j ɔ j ɲ,"['kore', 'ng', 'n', 'ka', 're', 'ng', 'ka', 'n']",0.6153846153846154,{'nungka'},26,16,"{'kare', 'nungka', 'nganka'}"
+doc53,ba menekke mudika [use] ngarrimeno? ngarrire bim ngarrinahnan,b a m ɛ n ɛ k ɛ m u t i ka j u s ngarri m ɛ n u ŋ ngarri re b i ngarri n a n a r,"['n', 'ka', 'ngarri', 'n', 'ngarri', 're', 'ngarri', 'n', 'n']",0.48148148148148145,{'ngarrire'},54,26,"{'ngarrire', 'nan', 'na', 'ngarrina'}"
+doc54,korroko kurrmeng kunwok manu labbarlnoken konhda,k u r ɔ k u r m ɛ ng kunwok man u l ɑ b a l i n u b i n k ɔ n ʔ t a,"['ng', 'man', 'n', 'n', 'n']",0.18604651162790697,{'kurrmeng'},43,8,"{'kurrmeng', 'ken'}"
+doc55,konhda kunngen? yiman ngarrikurrme konhda,k ɔ n ʔ t a kun ng ɛ n yiman ngarri k u r m ɛ w ɔ n t a,"['n', 'kun', 'ng', 'n', 'yiman', 'ngarri', 'n']",0.5135135135135135,{'ngarrikurrme'},37,19,{'ngarrikurrme'}
+doc56,nawu ngarrikan nganabbarru,n ɔ u ngarri k a n ng a n a b a l u,"['n', 'ngarri', 'n', 'ng', 'n']",0.4583333333333333,{'ngarrikan'},24,11,"{'ngarrika', 'na', 'ngarrikan', 'kan', 'ngana'}"
+doc57,kunmayali yibukbukka balanda ba kaborlbme ngudda beh kun kunmayali ngurridjarrkworren,kunmayali j i bu bu k a balanda ba k a b ɔ l b m ɛ ng u ɟ a b ɛ k u n kunmayali ng u ɲ i ɟ a r k u ɹ ɛ r,"['bu', 'bu', 'balanda', 'ba', 'ng', 'n', 'ng']",0.23684210526315788,set(),76,18,"{'yibu', 'bukka', 'buk', 'ngu'}"
+doc58,ngandibukbukkan warridj kabirrimre,ng a n t i bu k bu l k a n ŋ a r i kabirri m re,"['ng', 'n', 'bu', 'bu', 'n', 'kabirri', 're']",0.53125,{'kabirrimre'},32,17,"{'kabirrimre', 'buk', 'kan', 'ngandibu'}"
+doc59,konhda nemekke nawu balanda,k ɔ n ʔ t a j ɛ m ɛ n ɛ w u balanda b a,"['n', 'n', 'balanda']",0.375,{'nawu'},24,9,"{'nawu', 'na'}"
+doc60,wurdurd ba kabirriborlbme bokenh balanda [and] bininj [way],j u b ɔ kabirri b ɔ ɹ b m ɛ b ɔ ŋ k ɛ n balanda ə n b i n i ɲ u ɛ,"['kabirri', 'n', 'balanda', 'n', 'n']",0.3269230769230769,{'bininj'},52,17,"{'ken', 'binin', 'bini', 'bininj', 'nin', 'ni'}"
+doc61,nayin wakeng,ɛ n a j j i n w ɔ l k k ɛ ng,"['n', 'n', 'ng']",0.36363636363636365,set(),11,4,"{'nayi', 'na'}"
+doc62,yiman kayime yakngarra karlba,yiman kayime j a k a r a l ka l b ɑ,"['yiman', 'ka']",0.2692307692307692,set(),26,7,set()
+doc63,bu bimkang konhda [and] wurdurd nuye bonj,bu b i n ka ng k ɔ n ʔ t a b æ r w u r u k j i n u j i bonj,"['bu', 'n', 'ka', 'ng', 'n', 'n', 'bonj']",0.37142857142857144,{'bimkang'},35,13,"{'bimkang', 'bimka', 'kang', 'kan'}"
+doc64,yiman kayime kangulme,yiman kayime ka ng u ɹ m ɛ,"['yiman', 'ka', 'ng']",0.47368421052631576,set(),19,9,"{'kang', 'kangu', 'ngu'}"
+doc65,kabirrimarnbun ngadberre manu,kabirrimarnbun r m ɛ ɲ ng a k b ɛ r ɛ man u ŋ,"['ng', 'man']",0.18518518518518517,set(),27,5,{'ngad'}
+doc66,kulabbarl kuken nganbokuken marrek kabodowen ngurrurdu konhda barribonguni,k u l ɑ b a l k u k ɛ n ng a n b u k u ŋ k ə n m a r ɛ k ka b ɔ t ɔ w k ɛ n ng u r w u ʈ u k ɔ n ʔ t a b a r i b u ng,"['n', 'ng', 'n', 'n', 'ka', 'n', 'ng', 'n', 'ng']",0.19402985074626866,set(),67,13,"{'ken', 'kabodo', 'kab', 'ngu', 'kabo'}"
+doc67,konhda kore ngurrurdu barriwo bimbom konhda kore [office] ngadberre,k ɔ n ʔ t a kore ng u l u t u b a r k u b i b om k ɔ r a kore ɔ f i s ng a t b ɛ r ɛ,"['n', 'kore', 'ng', 'om', 'kore', 'ng']",0.2542372881355932,{'ngadberre'},59,15,"{'ngad', 'ngadberre', 'ngu', 'bom'}"
+doc68,ngaye ngadjorlohwam bu ngabendjorlohyikarrme,ng k ng ɟ ɔ l ɔ w a m bu ng b a n ɟ ɔ l ɹ ɛ ʔ j i ka r m ɛ,"['ng', 'ng', 'bu', 'ng', 'n', 'ka']",0.2682926829268293,set(),41,11,"{'yika', 'karrme', 'hyikarrme', 'hyika', 'yikarrme'}"
+doc69,nahne kundulk barralehminj nganmulmuni bu ba djukendi bu ngad ngarriyakminj,n a n ɛ kun t u l b a t a l ɛ b m i ɲ ng a n m u r u m u n i bu b a ɟ u l k ɛ n t i bu ng a t ngarri j a k m ɛ,"['n', 'n', 'kun', 'ng', 'n', 'n', 'bu', 'n', 'bu', 'ng', 'ngarri']",0.3333333333333333,{'ngad'},66,22,"{'ken', 'na', 'ngad', 'ni'}"
+doc70,kodjdjan wamud bu birriderrehme konhda kunwardda,k ɔ ɟ a t w ɔ m u n b u birri t i r ɛ m ɛ k ɔ n t a kun w a t a,"['n', 'birri', 'n', 'kun']",0.23255813953488372,set(),43,10,{'djan'}
+doc71,balandaken [and] bininjken manu kunmayali,balanda k ɛ n ɛ n b i n i ɲ k ɛ n j i man u kunmayali,"['balanda', 'n', 'n', 'n', 'n', 'man']",0.3783783783783784,"{'bininjken', 'balandaken'}",37,14,"{'ken', 'binin', 'bini', 'balandaken', 'bininj', 'nin', 'bininjken', 'ni'}"
+doc72,ngad kunwok kadberre kunmayali,ng a t kunwok ka t b ɛ t ɛ kunmayali,"['ng', 'ka']",0.14814814814814814,{'ngad'},27,4,{'ngad'}
+doc73,ngarrikolung nga ngarridjuhme,ngarri k ɔ l u ng ng a ngarri ɟ u k m ɛ,"['ngarri', 'ng', 'ng', 'ngarri']",0.5925925925925926,{'ngarrikolung'},27,16,"{'ngarrikolung', 'ngarrikolu'}"
+doc74,nungan yimeng ngaderrehme kurebeh kunwardda nga ngardduk,n u ng a n yimeng ng a r ɛ r ɛ t m ɛ k ɛ re b u kun w ɔ t a ng a ng a t u k,"['n', 'ng', 'n', 'ng', 're', 'kun', 'ng', 'ng']",0.3,"{'ngardduk', 'nungan'}",50,15,"{'ngad', 'ngardduk', 'nungan'}"
+doc75,[while] kundung kankan kamurrngrayekwon [battery] kamak,w a l kun t u ng ka n ka n ka m u r ng ɔ a ɛ k u n b ɛ k f i t a m a k,"['kun', 'ng', 'ka', 'n', 'ka', 'n', 'ka', 'ng', 'n']",0.32,"{'kankan', 'kundung'}",50,16,"{'dung', 'kankan', 'kundung', 'kan', 'kanka'}"
+doc76,ngarriwokngimen,ngarri wok ng i m m ɛ n,"['ngarri', 'wok', 'ng', 'n']",0.8,set(),15,12,set()
+doc77,nawu kunwarddeken bu ngarridurrkmirri kabirrimarnbun ngadberre,k ɔ kun w a t ɛ k ə n bu ngarri t r u k m i t i kabirrimarnbun ng a t b ɛ r ɛ,"['kun', 'n', 'bu', 'ngarri', 'ng']",0.24561403508771928,{'ngadberre'},57,14,"{'ngad', 'kunwardde', 'ngadberre'}"
+doc78,[battery] kakinje ba [strong] kayimerranj yiman,b ɛ t ʃ ɹ k a t i ɲ ɛ b a s t ɔ ng kayime t a n yiman,"['ng', 'n', 'yiman']",0.19047619047619047,set(),42,8,set()
+doc79,kurrung kayimerranj marrek ngarriwurlhke bonj,k u r u ng kayime r a n m a r i ŋ ngarri w u m ɛ bonj,"['ng', 'n', 'ngarri', 'bonj']",0.3170731707317073,{'kurrung'},41,13,"{'kayimerran', 'kurrung'}"
+doc80,manme kabirringun bonj,man m ɛ kabirri ŋ ɔ n bonj,"['man', 'kabirri', 'n', 'bonj']",0.75,"{'kabirringun', 'manme'}",20,15,"{'ngun', 'manme', 'kabirringun', 'ngu', 'kabirringu'}"
+doc81,wanjh kabolkborledme ngarribenbengkan kobohkobanj,w a ɲ i ka b u l k b ɛ l ɛ t k m ɛ ngarri b ɛ n b ɛ ng k a n k ɔ b ɔ b a i,"['ka', 'ngarri', 'n', 'ng', 'n']",0.2608695652173913,set(),46,12,"{'bengka', 'kab', 'kan', 'kabo'}"
+doc82,nahne kore beh ngadjolohyime [whitefella] ken,n a ʔ n ɛ kore b ɛ ng ɔ l ɛ yime k i ɛ k w ɔ ɟ b a l a ɟ ɛ n,"['n', 'n', 'kore', 'ng', 'yime', 'n']",0.325,{'ken'},40,13,"{'na', 'ken'}"
+doc83,karriyime kore kuwardderurrk birrihyoy,ka r i yime kore b u a ʈ ɛ ɹ r birri k ɔ,"['ka', 'yime', 'kore', 'birri']",0.42857142857142855,{'karriyime'},35,15,{'karriyime'}
+doc84,konhda ngarrire bu,k ɔ ʔ t a ngarrire bu,['bu'],0.125,set(),16,2,set()
+doc85,manu balandaken ba wurdurd namekke,man u balanda k ɛ n ba w u ʈ u ʈ n ɛ m ɛ k ɛ,"['man', 'balanda', 'n', 'ba', 'n']",0.4666666666666667,"{'balandaken', 'namekke'}",30,14,"{'ken', 'na', 'balandaken', 'namekke', 'name'}"
+doc86,ngarriyirawon menekke mak bu ngarrikinje korroko kobahkohbanj ngandibukkani,ngarri j i ɹ a w u ɳ m ɛ n ɛ k ɛ m m a k bu ngarri k i ɲ m ɛ k ɔ r ɔ k u b ɔ ba k ba ng n t i b u k a ʔ m ɛ,"['ngarri', 'n', 'bu', 'ngarri', 'ba', 'ba', 'ng', 'n']",0.3235294117647059,set(),68,22,"{'kan', 'ni', 'won'}"
+doc87,norne namekke bodnoyaw bonj,k a n ɔ n i n a m ɛ b ɔ t n ɔ j j w u bonj,"['n', 'n', 'n', 'n', 'bonj']",0.3333333333333333,set(),24,8,"{'na', 'name'}"
+doc88,mandadjek mandadjek bu kakobunj wanjh ngarribengkan ngurrurdu ngong kunbalem,man t a ɟ ɛ man t a ɟ ɛ bu ka k ɔ bu n w a ɲ ngarri b ɛ ng k a n ng u r u t u ng kun ba l ɛ m,"['man', 'man', 'bu', 'ka', 'bu', 'n', 'ngarri', 'ng', 'n', 'ng', 'ng', 'kun', 'ba']",0.45588235294117646,"{'kunbalem', 'ngarribengkan'}",68,31,"{'ngarribengkan', 'ngarribengka', 'bengka', 'ngu', 'bun', 'kan', 'kunbalem'}"
+doc89,kure mak kunkarre yoh,k ɔ re m a k kun ŋ a r i j u,"['re', 'kun']",0.2777777777777778,set(),18,5,set()
+doc90,nane kundulk kangeyyo mandjeyh,n a ʔ n ɛ kun t u l k ka ng i j ɔ man k ɛ,"['n', 'n', 'kun', 'ka', 'ng', 'man']",0.4444444444444444,{'kundulk'},27,12,"{'kundulk', 'na', 'kang'}"
+doc91,yiman kayime,yiman kayime,['yiman'],0.45454545454545453,set(),11,5,set()
+doc92,kabirrimarnbun mudika kayime makka kadi kuberrk,kabirrimarnbun m u r i ka kayime m a l ka ka r i k u ɹ ɛ k,"['ka', 'ka', 'ka']",0.14285714285714285,set(),42,6,set()
+doc93,nemekke nganabbarru marrek ngarridjare,j i m ɛ ng a n a ba r u m m a r ɛ k ngarri ɟ ɛ re,"['ng', 'n', 'ba', 'ngarri', 're']",0.37142857142857144,{'ngarridjare'},35,13,"{'ngarridjare', 'na', 'djare', 'ngana'}"
+doc94,nayin wakeng yoh wakeng,n a j ɛ n w ɔ k ɛ ng i w ɔ l k i ɛ ng,"['n', 'n', 'ng', 'ng']",0.3,"{'nayin', 'wakeng'}",20,6,"{'nayin', 'nayi', 'na', 'wakeng'}"
+doc95,bedberre kunmayali marrek ngarridalkbawon ngarriwurlhke,b æ t b ɛ r ɛ kunmayali m a r i k ngarri t a l u l ba l ɔ n ngarri w u ɭ i k k ɛ,"['ngarri', 'ba', 'n', 'ngarri']",0.29411764705882354,set(),51,15,set()
+doc96,karddum beh [satellite] kadberre,ka n t u m b ɛ s æ t l æ j n ka t k b ɛ r ɛ,"['ka', 'n', 'n', 'ka']",0.20689655172413793,set(),29,6,set()
+doc97,nemekke bolkwarrewarrewon labbarlno ngong,n i m ɛ k b ɔ l k ɔ a ŋ a r ɔ l a ba l n ɔ ng ɔ ng,"['n', 'ba', 'n', 'ng', 'ng']",0.21052631578947367,set(),38,8,set()
+doc98,yiman ngke? kobahkohbanj ba,yiman ng k ɛ k u ba l ba ɲ ba,"['yiman', 'ng', 'ba', 'ba', 'ba']",0.5416666666666666,set(),24,13,{'banj'}
+doc99,nahne birriyawmarnbom wurdurd,n a n ɛ birri a m a ɳ b om w u r w ʈ,"['n', 'n', 'birri', 'om']",0.3333333333333333,set(),27,9,"{'marnbom', 'na', 'bom'}"
+doc100,konhda bu malamalayi ngarriyolyolme ngankarre bu ngarrire djarre,k w ɔ n ʔ t a bu m a l a m a l a ʔ i ngarri k a ɟ u r m ɛ ng a n k a r ɛ bu ngarri re ɟ a r ɛ,"['n', 'bu', 'ngarri', 'ng', 'n', 'bu', 'ngarri', 're']",0.38596491228070173,{'ngarrire'},57,22,"{'ngarrire', 'nganka'}"
+doc101,nungka kunrurrk biyibawong,d u n ka kun ɹ w u r k b i j ba ɔ ng,"['n', 'ka', 'kun', 'ba', 'ng']",0.4166666666666667,set(),24,10,set()
+doc102,kabendibukbukkan kunkuk balandaken,ka b ɛ n t i bu bu ka n kun b u k balanda k ɛ n,"['ka', 'n', 'bu', 'bu', 'ka', 'n', 'kun', 'balanda', 'n']",0.65625,{'balandaken'},32,21,"{'ken', 'bukka', 'bukkan', 'kab', 'balandaken', 'kan'}"
+doc103,namekke [telephone] birrimarnbom,j ɛ m ɛ r ɛ t ɛ l ɑ f ɔ n birri m a ɳ b om,"['n', 'birri', 'om']",0.26666666666666666,{'birrimarnbom'},30,8,"{'na', 'marnbom', 'birrimarnbom', 'birrima', 'bom'}"
+doc104,kayime ngarriwurlhke kunak kayime manbinik ngong ngarrimohrokme,kayime ngarri w u ɭ i k ɛ kun a k kayime man b i n ɛ ŋ ɔ ngarri ŋ u ɹ u k m ɛ,"['ngarri', 'kun', 'man', 'n', 'ngarri']",0.3333333333333333,{'kunak'},57,19,"{'na', 'bini', 'ni', 'kunak'}"
+doc105,kawarremen bonj,ka w a r i m a n bonj,"['ka', 'n', 'bonj']",0.5,set(),14,7,set()
+doc106,konhda kore mudika kabirrimarnbun kabakme,k w ɑ ʔ t a kore m u t i ka kabirrimarnbun ka ba k b m ɛ,"['kore', 'ka', 'ka', 'ba']",0.2702702702702703,set(),37,10,set()
+doc107,kabindibukbukkan kunwok ba,ka b i n t i bu bu k a n kunwok ba,"['ka', 'n', 'bu', 'bu', 'n', 'ba']",0.4166666666666667,set(),24,10,"{'kabindibu', 'bukka', 'bukkan', 'buk', 'kab', 'kan'}"
+doc108,kabirriborlbme konhda kunwardda bindiwong,kabirri b ɔ ʈ m ɛ k ɔ n ʔ t a kun w ɑ ɑ b i n t i w ɔ ng,"['kabirri', 'n', 'kun', 'n', 'ng']",0.3684210526315789,{'bindiwong'},38,14,"{'bindiwo', 'wong', 'bindiwong'}"
+doc109,kabirrimhre konhda kabirridurrkmirri konhda manme kabirriyawngun,kabirri m re k ɔ n ʔ t a kabirri t u k m i r i k ɔ ʔ a man m ɛ kabirri k ɛ ng u n,"['kabirri', 're', 'n', 'kabirri', 'man', 'kabirri', 'ng', 'n']",0.5084745762711864,{'manme'},59,30,"{'ngun', 'kabirridu', 'ngu', 'manme'}"
+doc110,ngad karriyime kundung kawarlkan,ng a r ka r i yime kun t u ng ka w ɔ l ka n,"['ng', 'ka', 'yime', 'kun', 'ng', 'ka', 'ka', 'n']",0.6206896551724138,"{'kundung', 'karriyime'}",29,18,"{'dung', 'kundung', 'kan', 'karriyime'}"
+doc111,birribonguyi,b a r i b ɔ ng w i,['ng'],0.16666666666666666,set(),12,2,set()
+doc112,kubokuken yiman ngurrurdu birribonguyi konhda bu kayime kunj ngurrurdu,k u b ɔ k u k a n yiman ng u n u t u b a r i b ɔ ng ɹ i ɲ k ɔ t a bu kayime b u ng u r u ʈ u,"['n', 'yiman', 'ng', 'n', 'ng', 'bu', 'ng']",0.24193548387096775,set(),62,15,"{'ngu', 'bongu'}"
+doc113,nahne ngadengeno? njamed manbedje,m a n ɛ ŋ ng a r ɛ ng u m u ɲ a m ɛ t man b a ɟ i,"['n', 'ng', 'ng', 'man']",0.26666666666666666,set(),30,8,"{'na', 'ngad'}"
+doc114,mahne yiman kayime mandjoh kakobunj bu yekke,m a ʔ ɛ yiman kayime man ɟ u ka k ɔ bu n bu j ɛ k ɛ,"['yiman', 'man', 'ka', 'bu', 'n', 'bu']",0.39473684210526316,set(),38,15,{'bun'}
+doc115,mayh kunak bim ngadberre,m a kun a w k b i m ng a t b ɛ r ɛ,"['kun', 'ng']",0.23809523809523808,{'ngadberre'},21,5,"{'ngad', 'na', 'ngadberre'}"
+doc116,nahne [solar] [panel] kabirriyime,n a ʔ n ɛ s o l ɑ p æ n ə l kabirri yime,"['n', 'n', 'n', 'kabirri', 'yime']",0.4666666666666667,{'kabirriyime'},30,14,"{'na', 'kabirriyime'}"
+doc117,[solar] [panel] ngalengarre [telstra],s a r ɛ p ə n ə n ɔ ng l ɛ ng a r ɛ t ɛ l s n ə,"['n', 'n', 'ng', 'ng', 'n']",0.20588235294117646,set(),34,7,set()
+doc118,kunmayali bedberre,kunmayali b ɛ t b ɛ r ɛ,[],0.0,set(),17,0,set()
+doc119,marrek ngarribanyibawon munguyi ngarriwurlhke yekke ko?,m a r a k ngarri ba n i ba ɔ n m u ng j ngarri w u ɭ k ɛ j ɛ k ɛ b u,"['ngarri', 'ba', 'n', 'ba', 'n', 'ng', 'ngarri']",0.4,set(),50,20,{'ngu'}
+doc120,menekke kabodurrkmang ngarrihbongun karrkad,m ɛ n ɛ k ɛ ka b u t u k m a ng ngarri b u ng u n k a r i k a t,"['n', 'ka', 'ng', 'ngarri', 'ng', 'n']",0.35,set(),40,14,"{'ngun', 'bongun', 'kab', 'ngu', 'mang', 'kabodu', 'bongu', 'kabo'}"
+doc121,ngarringolngolke?,ngarri ng u l ng ɔ l k ɛ,"['ngarri', 'ng', 'ng']",0.5882352941176471,set(),17,10,set()
+doc122,yimanekke mani kunrurrk,yiman ɛ k ɛ man ɛ kun w u ŋ r,"['yiman', 'man', 'kun']",0.5238095238095238,{'mani'},21,11,{'mani'}
+doc123,ba bengkani bu kunwardda nuye ki,ba b æ ng ka n i bu kun w ɔ ʈ a n u j ɛ k i,"['ba', 'ng', 'ka', 'n', 'bu', 'kun', 'n']",0.48148148148148145,{'nuye'},27,13,"{'kani', 'nuye', 'kan', 'ni'}"
+doc124,ba kabirriborlbme bokenh kunmayali bonj,ba kabirri b u ʈ m ɛ b ɔ l k ɛ n kunmayali bonj,"['ba', 'kabirri', 'n', 'bonj']",0.4,set(),35,14,{'ken'}
+doc125,[dish] nawu kamang,d ɛ s ɛ n a w u ka m a ng,"['n', 'ka', 'ng']",0.3125,"{'nawu', 'kamang'}",16,5,"{'nawu', 'kamang', 'na', 'kama', 'mang'}"
