@@ -7,6 +7,6 @@ To run the evaluation script: `python find_words.py` . This script will use the 
 
 The implementation of the FST for word discovery can be seen in `grammar/kunwok-acceptor.xfst`. In particular the last line, `regex  [[[ "-":? ]* [0:" "] [FullGrammar .o. wspace].l [0:" "] [ "-":? ]*] .o. NoisyPhones].i;`, extends what is otherwise a standard morphological analyzer to spot possible words in a string of phones, given a certain phonemic flexibility. Spotted words are printed in the output, with characters not belonging to the spotted word transduced to the `-` symbol. 
 
-One shortcoming of this approach is that the FST assumes that the known lexemes are aligned and imputed into the phone sequence. Further word will explore ways of doing local word discovery without explicit alignments provided a priori.  
+One shortcoming of this approach is that the FST assumes that the known lexemes are aligned and imputed into the phone sequence. Further work will explore ways of doing local word discovery without explicit alignments provided a priori.  
 
 A more user-friendly python implementation of LWD is currently under development. Check back later for a link to that work.
