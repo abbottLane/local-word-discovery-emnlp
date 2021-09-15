@@ -42,8 +42,6 @@ def evaluate_data(data):
         writer.writerow(csv_header)
     
         for i,doc in enumerate(data):
-            if i == 69:
-                nice = 9
             num_chars_in_present_lexemes = len("".join(doc['present_lexemes']))
             num_chars_in_gold_str = len("".join(doc['gold_str']))
             
